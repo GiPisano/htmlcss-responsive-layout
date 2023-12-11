@@ -91,7 +91,27 @@ li{
     width: 50%;
 }
 
+/* SECTION-PLAN */
 
-@media screen and (max-width: 768px){
-    
+#plan{
+    /* DEBUG */
+    background-color: burlywood;
+}
+
+#plan .container{
+    display: flex;
+    padding-top: 50px ;
+    padding-bottom: 50px ;
+}
+
+#plan .container .card{
+    width: 50%;
+    text-align: center;
+}
+
+#plan .container .card:last-child{
+    background-color: antiquewhite;
+    padding: 100px 0;
+    width: 30%;
+    margin: 50px auto 0 auto;
 }
