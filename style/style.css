@@ -116,7 +116,41 @@ li{
     margin: 50px auto 0 auto;
 }
 
-/* Responsive-Layout-Tablet */
+/* SECTION-PARTNERS */
+
+#partners .intro{
+    text-align: center;
+}
+
+#partners .container *{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#partners .container .card{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /* DEBUG */
+    background-color: chocolate;
+}
+
+#partners .container .card .left{
+    width: 30%;
+}
+
+#partners .container .card .right{
+    width: 70%;
+}
+
+
+
+
+
+
+    /*******************************
+        Responsive-Layout-Tablet 
+    ********************************/
 
 @media  screen and (max-width: 768px) {
     .container{
@@ -126,14 +160,12 @@ li{
     /* SECTION-DEMO-APP */
 
     #demo-app .col:first-child .card{
-        display: flex;
         flex-direction: column;
     }
 
     /* SECTION-PLAN */
 
     #plan .container{
-        display: flex;
         flex-direction: column;
         padding-top: 50px ;
         padding-bottom: 50px ;
@@ -142,16 +174,24 @@ li{
     
     #plan .container .card{
         width: 100%;
-        text-align: center;
     }
 }
 
 
-/* Responsive-Layout-mobile */
+    /*******************************
+        Responsive-Layout-mobile 
+    ********************************/
 
 @media  screen and (max-width: 480px) {
     #demo-app .row .col{
         width: 100%;
     }
+
+    /* SECTION-PARTNERS */
+
+    #partners .card{
+        flex-direction: column;
+    }
+    
 }
 
