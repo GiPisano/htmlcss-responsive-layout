@@ -144,6 +144,22 @@ li{
 }
 
 
+/* SECTION-BENEFITS  */
+#benefits h2{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#benefits .col{
+    width: calc(100% / 3);
+}
+
+#benefits .card{
+   padding: 1rem;
+   background-color: burlywood;
+}
+
 
 
 
@@ -171,9 +187,14 @@ li{
         padding-bottom: 50px ;
     }
 
-    
     #plan .container .card{
         width: 100%;
+    }
+
+    /* SECTION-BENEFITS  */
+
+    #benefits .col{
+        width: 50%;
     }
 }
 
@@ -193,5 +214,10 @@ li{
         flex-direction: column;
     }
     
+    /* SECTION-BENEFITS  */
+
+    #benefits .col{
+        width: 100%;
+    }
 }
 
