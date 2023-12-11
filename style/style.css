@@ -160,6 +160,41 @@ li{
    background-color: burlywood;
 }
 
+/* SECTION-ABOUT-US */
+
+#about .container{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#about .container .card:first-child{
+    width: 80%;
+}
+
+#about .container .card:last-child{
+    width: 20%;
+}
+
+/* SECTION-GET-STARTED */
+
+#start .container *{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#start .container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+/* FOOTER */
+
+#footer .container{
+    text-align: center;
+}
 
 
 
@@ -219,5 +254,12 @@ li{
     #benefits .col{
         width: 100%;
     }
+
+    /* SECTION-ABOUT-US */
+
+    #about .container{
+        flex-direction: column;
+    }
+
 }
 
