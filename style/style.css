@@ -115,3 +115,43 @@ li{
     width: 30%;
     margin: 50px auto 0 auto;
 }
+
+/* Responsive-Layout-Tablet */
+
+@media  screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
+
+    /* SECTION-DEMO-APP */
+
+    #demo-app .col:first-child .card{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* SECTION-PLAN */
+
+    #plan .container{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px ;
+        padding-bottom: 50px ;
+    }
+
+    
+    #plan .container .card{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+/* Responsive-Layout-mobile */
+
+@media  screen and (max-width: 480px) {
+    #demo-app .row .col{
+        width: 100%;
+    }
+}
+
