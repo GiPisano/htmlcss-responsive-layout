@@ -174,7 +174,7 @@ button{
     align-self: flex-end;
     background-color: white;
     border-radius: 30px;
-    padding: 50px 0;
+    padding: 10px 1px;
     width: 30%;
     margin: 0 auto;
     text-align: center;
@@ -184,6 +184,27 @@ button{
     font-weight: bold;
     padding: 15px;
 }
+
+#plan .container .card:last-child .description{
+    font-style: italic ;
+    line-height: 1.8;
+}
+
+#plan .container .card:last-child i{
+    font-size: 20px;
+}
+
+#plan .container .card:last-child .circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--purple-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
 
 /* SECTION-PARTNERS */
 
@@ -303,6 +324,11 @@ button{
 
     #plan .container .card{
         width: 100%;
+    }
+
+    #plan .container .card:last-child {
+        width: 100%;
+        margin: 10px auto;
     }
 
     /* SECTION-BENEFITS  */
