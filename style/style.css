@@ -31,14 +31,8 @@ li{
 }
 
 button{
-    border-radius: 20px;
-    padding: 10px 48px;
-    color: white;
-    background-color: var(--blue-color);
     border: none;
-    margin: 30px 0;
 }
-
 
 /* GRID */
 
@@ -99,6 +93,14 @@ button{
    height: 100%;
    padding: 1rem;
    text-align: center;
+}
+
+#demo-app button{
+    border-radius: 20px;
+    padding: 10px 48px;
+    color: white;
+    background-color: var(--blue-color);
+    margin: 30px 0;
 }
 
 #demo-app .col:first-child .card{
@@ -307,8 +309,6 @@ button{
     color: white;
     padding: 10px 50px;
     text-align: center;
-    
-    
 }
 
 /* SECTION-ABOUT-US */
@@ -319,27 +319,100 @@ button{
     padding-bottom: 50px;
 }
 
+#about .container .card .title{
+    color: var(--purple-color);
+    font-size: 50px;
+}
+
+#about .container .left p{
+    line-height: 2.2;
+}
+
+
+#about .container .left *{
+    padding: 20px;
+}
+
+#about .container .right img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#about .container .right .white{
+    background-color: white;
+    color: var(--purple-color);
+    margin-right: 10px;
+}
+
+#about .button{
+    background-color: var(--purple-color);
+    border-radius: 20px;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+}
+
 #about .container .card:first-child{
-    width: 80%;
+    width: 70%;
 }
 
 #about .container .card:last-child{
     width: 20%;
 }
 
+#about .right .description {
+    color: var(--purple-color);
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+}
+
 /* SECTION-GET-STARTED */
+
+#start{
+    background-color: var(--purple-color);
+    color: white;
+}
+
+#start p:first-child{
+    color: var(--text-color);
+}
+
+#start .title{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#start .orange-title{
+    color: rgb(231, 175, 86);
+    font-size: 50px;
+    font-weight: bold;
+}
 
 #start .container *{
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
 }
 
 #start .container{
     padding-top: 50px;
     padding-bottom: 50px;
+    max-width: 600px;
 }
 
+#start button{
+    color: var(--purple-color);
+    padding: 20px 50px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+#start a{
+    color: white;
+}
 
 /* FOOTER */
 
