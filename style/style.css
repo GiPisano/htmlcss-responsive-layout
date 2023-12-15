@@ -207,38 +207,68 @@ button{
 
 
 /* SECTION-PARTNERS */
+#partners{
+    margin: 40px 0;
+}
 
 #partners .intro{
     text-align: center;
 }
 
+#partners .intro h2{
+    color: var(--purple-color);
+    font-size: 30px;
+}
+
+#partners .intro p:last-child{
+    color: var(--text-color);
+}
+
 #partners .container *{
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 5px; 
 }
 
 #partners .container .card{
     display: flex;
     margin-top: 15px;
     margin-bottom: 15px;
+    border-radius: 30px;
     /* DEBUG */
-    background-color: chocolate;
+    background-color: var(--purple-color);
+}
+
+
+#partners .container .card .left img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
 
 #partners .container .card .left{
-    width: 30%;
+    width: 25%;
 }
 
 #partners .container .card .right{
-    width: 70%;
+    width: 75%;
+    align-self: center;
+    color: white;
 }
 
 
 /* SECTION-BENEFITS  */
+
+#benefits{
+    background-color: var(--purple-color);
+    margin: 40px 0;
+}
+
 #benefits h2{
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    color: white;
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #benefits .col{
@@ -247,7 +277,38 @@ button{
 
 #benefits .card{
    padding: 1rem;
-   background-color: burlywood;
+   background-color: white;
+   border-radius: 20px;
+}
+
+#benefits .card *{
+    padding: 10px 0;
+}
+
+#benefits .card .title {
+    color: var(--purple-color);
+    font-size: 70px;
+    font-weight: bold;
+}
+
+#benefits .card h3{
+    color: var(--purple-color);
+    font-size: 20px;
+}
+
+#benefits .card .text{
+    color: var(--text-color);
+    line-height: 1.8;
+}
+
+#benefits .button{
+    background-color: var(--purple-color);
+    border-radius: 20px;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+    
+    
 }
 
 /* SECTION-ABOUT-US */
