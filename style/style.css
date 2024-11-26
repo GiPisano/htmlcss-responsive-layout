@@ -34,6 +34,10 @@ button{
     border: none;
 }
 
+#header .nav .nav-button{
+    display: none;
+}
+
 /* GRID */
 
 .container{
@@ -61,12 +65,15 @@ button{
   /* DEBUG */
   color: white;
   background-color: var(--blue-color);
+  
 }
+
 
 
 #header .container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -75,6 +82,21 @@ button{
     padding: 10px;
 }
 
+#header .nav div{
+     display: flex;
+     gap: 40px;
+}
+
+#header .nav div a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+#header .nav div a:hover{
+    background-color: white;
+    color: black;
+}
 
 /* SECTION-DEMO-APP */
 
@@ -457,6 +479,13 @@ button{
 @media  screen and (max-width: 768px) {
     .container{
         width: 100%;
+    }
+    #header .nav div a{
+       display: none;
+    }
+
+    #header .nav .nav-button{
+        display: block;
     }
 
     /* SECTION-DEMO-APP */
